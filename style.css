@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: silver;
+    text-align: center;
+}
+
+div#containter{
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #333333;
+}
+
+p{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+p#even{
+    display: flex;
+    width: 100%;
+}
+
+div.even{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
